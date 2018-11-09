@@ -150,7 +150,7 @@
           </execution>
         </executions>
       </plugin>
-     <!--<plugin>
+     <plugin>
 		<groupId>org.apache.cxf</groupId>
 		<artifactId>cxf-codegen-plugin</artifactId>
 		<version>3.2.6</version>
@@ -165,13 +165,13 @@
 					<sourceRoot>${basedir}/src/main/java</sourceRoot>
 						<wsdlOptions>
 							<wsdlOption>
-								<wsdl>http://localhost:8080/ws/location?wsdl</wsdl>
+								<wsdl>http://location-soap-admin-example-com-walkthrough-three.apps.waterford-eca3.openshiftworkshop.com//ws/location?wsdl</wsdl>
 							</wsdlOption>
 						</wsdlOptions>
 				</configuration>
 			</execution>
 		</executions>
-	 </plugin>-->
+	 </plugin>
     </plugins>
   </build>
 </project>
